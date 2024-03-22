@@ -1,0 +1,10 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: 1px solid black;
+    margin: 1px;
+}
