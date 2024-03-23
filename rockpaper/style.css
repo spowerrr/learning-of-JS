@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #0F2167;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;  /* it will take text vertically in the middle*/
+}
+
+.choice{
+    height: 165px; 
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; /*img was looking too much srink that's make img look normal*/
+    border-radius: 50%; /*to make circle */
+
+}
+.choices{
+    display: flex; /*all imgs place from horizontal to vertical */
+    justify-content: center; /*something like text allign*/
+    align-items: center; /*vertically center*/
+    gap: 2rem; /*creating gap between circled imgs*/
+    margin-top: 2rem;/*gaps from top between h1 and all imgs(choices)*/
+
+}
+
+.choice:hover{
+    /* opacity: 0.5; */
+    background-color: #081b31;
+    cursor: pointer; /*change mouse pointer for a selected item*/
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 4rem;
+}
+#user-score,#com-score{
+    font-size: 3rem;
+}
+
+.msg-container{
+    margin-top: 3rem;
+}
+
+#msg{
+    background-color: #081b31;
+    color: azure;
+    font-size: 3rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    /* text-align: center; */
+    /* display: inline;
+    justify-content: center;
+    align-items: center; */
+}
